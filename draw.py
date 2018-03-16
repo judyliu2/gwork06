@@ -17,14 +17,21 @@ def add_box( points, x, y, z, width, height, depth ):
     add_edge(points, x,y,z+depth, x,y+height, z+depth)
 
 def add_sphere( points, cx, cy, cz, r, step ):
+    m = generate_sphere(points,cx, cy,cz, step)
     pass
+
 def generate_sphere( points, cx, cy, cz, r, step ):
+    
     pass
 
 def add_torus( points, cx, cy, cz, r0, r1, step ):
+    m = generate_torus(points, cx,cy,cz, r0, r1, step)
     pass
+
 def generate_torus( points, cx, cy, cz, r0, r1, step ):
+    
     pass
+
 
 def add_circle( points, cx, cy, cz, r, step ):
     x0 = r + cx
